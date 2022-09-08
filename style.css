@@ -1,3 +1,7 @@
+.e-learning-slider-m {
+    margin-top: 100px;
+}
+
 .carousel-caption {
     padding-bottom: 180px;
 }
@@ -41,3 +45,64 @@ footer .e-lerning-icon i {
 /* footer part end */
 
 /* Responsibe part */
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .company-section {
+        display: none;
+    }
+
+    .subscribe-title {
+        text-align: center;
+    }
+
+    .student-title {
+        text-align: center;
+    }
+
+    .student-title p {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .e-learning-card-body {
+        text-align: center;
+    }
+
+    .e-learning-faq {
+        width: 100% !important;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .carousel-caption {
+        padding-bottom: 50px;
+    }
+
+    .student-title {
+        text-align: start;
+    }
+
+    .student-title p {
+        width: 50% !important;
+        text-align: start;
+    }
+
+    .e-learning-faq {
+        width: 100% !important;
+    }
+
+    .company-section {
+        display: none;
+    }
+}
+
+/* 
+// Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .subscribe-title {
+        text-align: start;
+    }
+}
