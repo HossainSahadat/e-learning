@@ -31,19 +31,19 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item px-3 fs-5">
-                            <a class="nav-link" aria-current="page" href="#">Courses</a>
+                            <a class="nav-link" aria-current="page" href="#course">Courses</a>
                         </li>
                         <li class="nav-item px-3 fs-5">
-                            <a class="nav-link" aria-current="page" href="#">Deals</a>
+                            <a class="nav-link" aria-current="page" href="#deals">Deals</a>
                         </li>
                         <li class="nav-item px-3 fs-5">
-                            <a class="nav-link" aria-current="page" href="#">Success</a>
+                            <a class="nav-link" aria-current="page" href="#success">Success</a>
                         </li>
                         <li class="nav-item px-3 fs-5">
-                            <a class="nav-link" aria-current="page" href="#">About</a>
+                            <a class="nav-link" aria-current="page" href="#about">About</a>
                         </li>
                         <li class="nav-item px-3 fs-5">
-                            <a class="nav-link" aria-current="page" href="#">Register</a>
+                            <a class="nav-link" aria-current="page" href="#register">Register</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -118,7 +118,7 @@
     </header>
     <main>
         <!-- Course part start -->
-        <section class="container mt-5">
+        <section class="container mt-5" id="course">
             <div class="course-title">
                 <div>
                     <h1 class="text-center fs-1 fw-bold">Discover Our Popular</h1>
@@ -235,7 +235,7 @@
         </section>
         <!-- Course part end -->
         <!-- explore part start -->
-        <section class="container mt-5 ">
+        <section class="container mt-5" id="about">
             <div class="row e-learning-bg">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <img class="img-fluid w-80" src="images/working.png" alt="" srcset="">
@@ -274,7 +274,7 @@
         </section>
         <!-- explore part end -->
         <!-- Subscribe part start -->
-        <section class="container my-5 bg-primary rounded-2">
+        <section class="container my-5 bg-primary rounded-2" id="register">
             <div class="row ">
                 <div
                     class="col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-center my-5 ps-5 ">
@@ -287,14 +287,39 @@
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-center my-3">
 
-                    <button class="btn btn-light fs-5 fw-bolder px-5 py-2 text-primary">Register Now</button>
+                    <button class="btn btn-light fs-5 fw-bolder px-5 py-2 text-primary " data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Register Now</button>
 
                 </div>
             </div>
         </section>
         <!-- Subscribe part end -->
+        <!-- Modal part start -->
+        <!-- Button trigger modal -->
+        <!-- Modal part start-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Student Registration Submission</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h5>Give Us Some Information To Complete Process:</h5>
+                        <p>Your Name:</p>
+                        <p>Phone Number:</p>
+                        <p>Class:</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Disagree</button>
+                        <button type="button" class="btn btn-primary">Agree</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal part end -->
         <!-- Our Student Part -->
-        <section class="container mt-5">
+        <section class="container mt-5" id="success">
             <div class="student-title">
                 <h1 class="fs-1 fw-bold">Meet Our Successfull</h1>
                 <h1 class="fs-1 fw-bold">Students</h1>
@@ -347,7 +372,7 @@
                 <button class="btn btn-primary fs-5 fw-semibold px-5 py-2">View All</button>
             </div>
         </section>
-        <!-- Our Student end -->
+        <!-- Our Student part end -->
         <!-- Student feedback part start -->
         <section class="container mt-5">
             <div class="feedback-title text-center">
@@ -363,7 +388,7 @@
                         <div class="card">
                             <div>
                                 <img class="img-fluid p-4" src="images/comma.png" alt="" srcset="">
-                                <img src="" alt="" srcset="">
+
                             </div>
                             <div class="card-body e-learning-feedback ps-4">
                                 <p class="card-text fs-6 fw-semibold text-secondary">There are many
@@ -410,7 +435,7 @@
         </section>
         <!-- Student feedback part end -->
         <!-- Faq part start -->
-        <section class="container mt-5">
+        <section class="container mt-5" id="deals">
             <div class="faq-title text-center">
                 <h1 class="fs-1 fw-bold">Frequently Asked Questions</h1>
                 <p class="fs-6 fw-semibold text-secondary w-50 m-auto">t is a long established fact that a reader will
@@ -561,10 +586,10 @@
                 </div>
             </div>
             <div class="e-lerning-icon ms-4 mt-2">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-dribbble"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram bg-secondary ps-2 text-light rounded-4 fs-6 pt-2 "></i></a>
+                <a href="#"><i class="fab fa-dribbble bg-secondary ps-2 text-light rounded-4 fs-6 pt-2 "></i></a>
+                <a href="#"><i class="fab fa-twitter bg-secondary ps-2 text-light rounded-4 fs-6 pt-2 "></i></a>
+                <a href="#"><i class="fab fa-youtube bg-secondary ps-2 text-light rounded-4 fs-6 pt-2"></i></a>
             </div>
         </div>
     </footer>
