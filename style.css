@@ -18,3 +18,30 @@
 .e-learning-feedback {
     width: 80%;
 }
+
+/* * footer part start */
+footer {
+
+    height: 400px;
+}
+
+.footer-info {
+    padding-top: 35px;
+
+}
+
+
+footer .e-lerning-icon i {
+    padding-left: 6px;
+    margin: 0px 12px;
+    font-size: 15px;
+    color: #ffffff;
+    border: 1px solid #0ba4c3;
+    background: #0ba4c3;
+    border-radius: 80px;
+    width: 30px;
+    height: 30px;
+    padding-top: 8px;
+}
+
+/* footer part end */
